@@ -16,4 +16,4 @@ For Mini Project 1, a serverless/static Platform-as-a-Service (PaaS) architectur
 - **Source Code Management:** GitHub (`SkillSetGo-Cloud-DevOps-Internship`)
 - **Hosting Provider:** Vercel Global Edge Network
 - **Deployment Type:** Automated Continuous Deployment (Git Push Workflow)
-- **Live URL:** [Insert Your Vercel Live Link Here]
+- **Live URL:** https://skill-set-go-cloud-devops-internshi.vercel.app/
