@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  webapp:
+    build: .
+    container_name: week2_web_container
+    ports:
+      - "8080:80"
+    restart: always
+
+  # Additional service (jaise requirement ke mutabiq database container)
+  redis-cache:
+    image: redis:alpine
+    container_name: week2_redis_container
+    ports:
+      - "6379:6379"
