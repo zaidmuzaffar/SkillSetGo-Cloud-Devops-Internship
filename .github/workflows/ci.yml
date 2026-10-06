@@ -20,6 +20,7 @@ jobs:
     - name: Build Docker Image
       uses: docker/build-push-action@v5
       with:
-        context: .
-        push: false
-        tags: week3-test-app:latest
+      context: ./Week 2
+      file: ./Week 2/Dockerfile
+      push: false
+      tags: week2-test-app:latest
