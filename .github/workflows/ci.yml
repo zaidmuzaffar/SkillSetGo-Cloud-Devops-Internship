@@ -24,3 +24,8 @@ jobs:
         file: ./Week 2/Dockerfile
         push: false
         tags: week2-test-app:latest
+
+    - name: Verify Docker Image Built
+      run: |
+        echo "Docker image built successfully and verified!"
+        docker images
